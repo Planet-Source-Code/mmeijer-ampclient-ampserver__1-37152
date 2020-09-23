@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=Amp Server Setup
+
+
+[Package|Amp Server Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrator\Desktop\PROJECTS\MP3Program\winamp\server\Package
+
+[Package|Amp Server Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Amp Server Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Amp Server Setup|Files Found]
+
+[Package|Amp Server Setup|Files Released]
+
+[Package|Amp Server Setup|Missing Dependency Information]
+
+[Package|Amp Server Setup|Out-of-Date Dependency Information]
+
+[Package|Amp Server Setup|Files Added]
+
+[Package|Amp Server Setup|Files Removed]
+
+[Package|Amp Server Setup|Files In Project]
+C:\Documents and Settings\Administrator\Desktop\PROJECTS\MP3Program\winamp\server\AmpServer.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Amp Server Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Amp Server Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Amp Server Setup|Install Locations]
+C:\Documents and Settings\Administrator\Desktop\PROJECTS\MP3Program\winamp\server\AmpServer.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Amp Server Setup|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\Desktop\PROJECTS\MP3Program\winamp\server\AmpServer.exe=No
+
+[Package|Amp Server Setup|Distribution]
+Type=single
+Size=
+Title=AmpServer
+
+[Package|Amp Server Setup|IconGroups]
+Group0=AmpServer
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Amp Server Setup|AmpServer]
+Icon1=AmpServer.exe
+Title1=AmpServer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Amp Server Setup|Package]
+PackageFolder=C:\Documents and Settings\Administrator\Desktop\PROJECTS\MP3Program\winamp\server\Package
+ProjectFolder=C:\Documents and Settings\Administrator\Desktop\PROJECTS\MP3Program\winamp\server
+ServerSideCab=
+File1=C:\Documents and Settings\Administrator\Desktop\PROJECTS\MP3Program\winamp\server\Package\setup.exe
+File2=C:\Documents and Settings\Administrator\Desktop\PROJECTS\MP3Program\winamp\server\Package\Setup.Lst
+File3=C:\Documents and Settings\Administrator\Desktop\PROJECTS\MP3Program\winamp\server\Package\AmpServer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
